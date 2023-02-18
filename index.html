@@ -56,7 +56,7 @@
             </div>
             <div class="row">
                 <div class="col-md-4">
-                    <img class="center-img" src="./assets/img/sewing_machine.jpg">
+                    <img class="center-img" width="65%" src="./assets/img/sewing_machine.jpg">
                 </div>
                 <div class="col-md-8">
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
@@ -149,11 +149,10 @@
                         architecto quo inventore harum ex magni, dicta impedit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
                         architecto quo inventore harum ex magni, dicta impedit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
                         architecto quo inventore harum ex magni, dicta impedit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
-                        architecto quo inventore harum ex magni, dicta impedit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
                         architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
                 <div class="col-md-5">
-                    <img class="center-img" src="./assets/img/color_thread.jpg">
+                    <img class="about-img" width="85%" src="./assets/img/color_thread.jpg">
                 </div>
             </div>
         </div>
@@ -164,8 +163,8 @@
     <section class="page-section" id="contact">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">Contact Us</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h2 class="section-heading text-uppercase">Contact <a class="btn btn-dark btn-social mx-2" target="_blank" href="mailto:zen.virji@gmail.com" aria-label="Email"><i
+                  class="fa fa-envelope"></i></a></h2>
             </div>
             <!-- * * * * * * * * * * * * * * *-->
             <!-- * * SB Forms Contact Form * *-->
@@ -179,31 +178,30 @@
                     <div class="col-md-6">
                         <div class="form-group">
                             <!-- Name input-->
-                            <input class="form-control" id="name" type="text" placeholder="Your Name *"
+                            <input class="form-control" id="name" type="text" placeholder="Name*"
                                 data-sb-validations="required" />
-                            <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            <div class="invalid-feedback" data-sb-feedback="name:required">Please enter a name.</div>
                         </div>
                         <div class="form-group">
                             <!-- Email address input-->
-                            <input class="form-control" id="email" type="email" placeholder="Your Email *"
-                                data-sb-validations="required,email" />
-                            <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                            <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            <input class="form-control" id="email" type="email" placeholder="Email*"
+                                data-sb-validations="email" />
+                            <div class="invalid-feedback" data-sb-feedback="email:email">Please enter a valid email.</div>
                         </div>
                         <div class="form-group mb-md-0">
                             <!-- Phone number input-->
-                            <input class="form-control" id="phone" type="tel" placeholder="Your Phone *"
+                            <input class="form-control" id="phone" type="tel" placeholder="Phone Number*"
                                 data-sb-validations="required" />
-                            <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.
+                            <div class="invalid-feedback" data-sb-feedback="phone:required">Please enter a phone number.
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group form-group-textarea mb-md-0">
                             <!-- Message input-->
-                            <textarea class="form-control" id="message" placeholder="Your Message *"
+                            <textarea class="form-control" id="message" placeholder="Message*"
                                 data-sb-validations="required"></textarea>
-                            <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.
+                            <div class="invalid-feedback" data-sb-feedback="message:required">Please enter a message.
                             </div>
                         </div>
                     </div>
@@ -213,24 +211,20 @@
                 <!-- This is what your users will see when the form-->
                 <!-- has successfully submitted-->
                 <div class="d-none" id="submitSuccessMessage">
-                    <div class="text-center text-white mb-3">
-                        <div class="fw-bolder">Form submission successful!</div>
-                        To activate this form, sign up at
-                        <br />
-                        <a
-                            href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                    <div class="text-center mb-3">
+                        <div class="fw-bolder">Thank you! We will be in touch shortly.</div>
                     </div>
                 </div>
                 <!-- Submit error message-->
                 <!---->
                 <!-- This is what your users will see when there is-->
                 <!-- an error submitting the form-->
-                <div class="d-none" id="submitErrorMessage">
-                    <div class="text-center text-danger mb-3">Error sending message!</div>
+                <div class='d-none' id="submitErrorMessage">
+                    <div class="text-center fw-bolder text-danger mb-3">Error sending message!</div>
                 </div>
                 <!-- Submit Button-->
-                <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled"
-                        id="submitButton" type="submit">Send Message</button></div>
+                <div class="text-center"><button class="btn btn-primary btn-lg text-uppercase disabled"
+                        id="submitButton" type="submit">Submit</button></div>
             </form>
         </div>
     </section>
@@ -238,19 +232,7 @@
     <footer class="footer py-4">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2022</div>
-                <div class="col-lg-4 my-3 my-lg-0">
-                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i
-                            class="fab fa-twitter"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i
-                            class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i
-                            class="fab fa-linkedin-in"></i></a>
-                </div>
-                <div class="col-lg-4 text-lg-end">
-                    <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
-                    <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
-                </div>
+                <div>Copyright &copy; Zenbroidery 2023</div>
             </div>
         </div>
     </footer>
@@ -372,70 +354,37 @@
                                 <div id="sports_carousel" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-inner">
                                       <div class="carousel-item active">
-                                        <img src="./assets/img/special_occasions/1.JPG" class="d-block w-100" alt="...">
+                                        <img src="./assets/img/sports/1.jpg" class="d-block w-100" alt="...">
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/2.JPG" class="d-block w-100" alt="...">
+                                        <img src="./assets/img/sports/2.jpg" class="d-block w-100" alt="...">
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/3.JPG" class="d-block w-100" alt="...">
+                                        <img src="./assets/img/sports/3.jpg" class="d-block w-100" alt="...">
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/4.JPG" class="d-block w-100" alt="...">
+                                        <img src="./assets/img/sports/4.jpg" class="d-block w-100" alt="...">
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/5.JPG" class="d-block w-100" alt="...">
+                                        <img src="./assets/img/sports/5.jpg" class="d-block w-100" alt="...">
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/6.JPG" class="d-block w-100" alt="...">
+                                        <img src="./assets/img/sports/6.jpg" class="d-block w-100" alt="...">
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/7.JPG" class="d-block w-100" alt="...">
+                                        <img src="./assets/img/sports/7.jpg" class="d-block w-100" alt="...">
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/8.JPG" class="d-block w-100" alt="...">
+                                        <img src="./assets/img/sports/8.jpg" class="d-block w-100" alt="...">
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/9.JPG" class="d-block w-100" alt="...">
+                                        <img src="./assets/img/sports/9.jpg" class="d-block w-100" alt="...">
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/10.JPG" class="d-block w-100" alt="...">
+                                        <img src="./assets/img/sports/10.jpg" class="d-block w-100" alt="...">
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/11.JPG" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/12.JPG" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/13.JPG" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/15.JPG" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/16.JPG" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/17.JPG" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/18.JPG" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/19.JPG" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/20.JPG" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/22.JPG" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/23.JPG" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/24.JPG" class="d-block w-100" alt="...">
+                                        <img src="./assets/img/sports/11.jpg" class="d-block w-100" alt="...">
                                       </div>
                                     </div>
                                     <button class="carousel-control-prev" type="button" data-bs-target="#sports_carousel" data-bs-slide="prev">
@@ -474,70 +423,19 @@
                                 <div id="seasonal_carousel" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-inner">
                                       <div class="carousel-item active">
-                                        <img src="./assets/img/special_occasions/1.JPG" class="d-block w-100" alt="...">
+                                        <img src="./assets/img/seasonal/1.jpg" class="d-block w-100" alt="...">
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/2.JPG" class="d-block w-100" alt="...">
+                                        <img src="./assets/img/seasonal/2.jpg" class="d-block w-100" alt="...">
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/3.JPG" class="d-block w-100" alt="...">
+                                        <img src="./assets/img/seasonal/3.jpg" class="d-block w-100" alt="...">
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/4.JPG" class="d-block w-100" alt="...">
+                                        <img src="./assets/img/seasonal/4.jpg" class="d-block w-100" alt="...">
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/5.JPG" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/6.JPG" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/7.JPG" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/8.JPG" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/9.JPG" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/10.JPG" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/11.JPG" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/12.JPG" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/13.JPG" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/15.JPG" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/16.JPG" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/17.JPG" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/18.JPG" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/19.JPG" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/20.JPG" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/22.JPG" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/23.JPG" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/24.JPG" class="d-block w-100" alt="...">
+                                        <img src="./assets/img/seasonal/5.jpg" class="d-block w-100" alt="...">
                                       </div>
                                     </div>
                                     <button class="carousel-control-prev" type="button" data-bs-target="#seasonal_carousel" data-bs-slide="prev">
@@ -576,70 +474,61 @@
                                 <div id="kids_carousel" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-inner">
                                       <div class="carousel-item active">
-                                        <img src="./assets/img/special_occasions/1.JPG" class="d-block w-100" alt="...">
+                                        <img src="./assets/img/kids/1.jpg" class="d-block w-100" alt="...">
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/2.JPG" class="d-block w-100" alt="...">
+                                        <img src="./assets/img/kids/2.JPG" class="d-block w-100" alt="...">
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/3.JPG" class="d-block w-100" alt="...">
+                                        <img src="./assets/img/kids/3.JPG" class="d-block w-100" alt="...">
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/4.JPG" class="d-block w-100" alt="...">
+                                        <img src="./assets/img/kids/4.JPG" class="d-block w-100" alt="...">
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/5.JPG" class="d-block w-100" alt="...">
+                                        <img src="./assets/img/kids/5.JPG" class="d-block w-100" alt="...">
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/6.JPG" class="d-block w-100" alt="...">
+                                        <img src="./assets/img/kids/6.JPG" class="d-block w-100" alt="...">
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/7.JPG" class="d-block w-100" alt="...">
+                                        <img src="./assets/img/kids/7.JPG" class="d-block w-100" alt="...">
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/8.JPG" class="d-block w-100" alt="...">
+                                        <img src="./assets/img/kids/8.JPG" class="d-block w-100" alt="...">
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/9.JPG" class="d-block w-100" alt="...">
+                                        <img src="./assets/img/kids/9.JPG" class="d-block w-100" alt="...">
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/10.JPG" class="d-block w-100" alt="...">
+                                        <img src="./assets/img/kids/10.JPG" class="d-block w-100" alt="...">
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/11.JPG" class="d-block w-100" alt="...">
+                                        <img src="./assets/img/kids/11.JPG" class="d-block w-100" alt="...">
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/12.JPG" class="d-block w-100" alt="...">
+                                        <img src="./assets/img/kids/12.JPG" class="d-block w-100" alt="...">
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/13.JPG" class="d-block w-100" alt="...">
+                                        <img src="./assets/img/kids/13.JPG" class="d-block w-100" alt="...">
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/15.JPG" class="d-block w-100" alt="...">
+                                        <img src="./assets/img/kids/14.JPG" class="d-block w-100" alt="...">
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/16.JPG" class="d-block w-100" alt="...">
+                                        <img src="./assets/img/kids/15.JPG" class="d-block w-100" alt="...">
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/17.JPG" class="d-block w-100" alt="...">
+                                        <img src="./assets/img/kids/16.JPG" class="d-block w-100" alt="...">
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/18.JPG" class="d-block w-100" alt="...">
+                                        <img src="./assets/img/kids/17.JPG" class="d-block w-100" alt="...">
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/19.JPG" class="d-block w-100" alt="...">
+                                        <img src="./assets/img/kids/18.JPG" class="d-block w-100" alt="...">
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/20.JPG" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/22.JPG" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/23.JPG" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="./assets/img/special_occasions/24.JPG" class="d-block w-100" alt="...">
+                                        <img src="./assets/img/kids/19.JPG" class="d-block w-100" alt="...">
                                       </div>
                                     </div>
                                     <button class="carousel-control-prev" type="button" data-bs-target="#kids_carousel" data-bs-slide="prev">
@@ -655,86 +544,6 @@
                                     type="button">
                                     <i class="fas fa-xmark me-1"></i>
                                     Close
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Portfolio item 5 modal popup-->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
-                        alt="Close modal" /></div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body">
-                                <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5.jpg" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>
-                                        <strong>Client:</strong>
-                                        Southwest
-                                    </li>
-                                    <li>
-                                        <strong>Category:</strong>
-                                        Website Design
-                                    </li>
-                                </ul>
-                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
-                                    type="button">
-                                    <i class="fas fa-xmark me-1"></i>
-                                    Close Project
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Portfolio item 6 modal popup-->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
-                        alt="Close modal" /></div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body">
-                                <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>
-                                        <strong>Client:</strong>
-                                        Window
-                                    </li>
-                                    <li>
-                                        <strong>Category:</strong>
-                                        Photography
-                                    </li>
-                                </ul>
-                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
-                                    type="button">
-                                    <i class="fas fa-xmark me-1"></i>
-                                    Close Project
                                 </button>
                             </div>
                         </div>
