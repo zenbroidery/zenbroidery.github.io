@@ -3268,8 +3268,8 @@ fieldset:disabled .btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #ffc800;
-  border-color: #ffc800;
+  background-color: var(--bs-body-color);
+  border-color: var(--bs-body-color);
 }
 
 .btn-primary:hover {
@@ -6334,7 +6334,7 @@ fieldset:disabled .btn {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: #fff;
+  background-color: rgba(var(--bs-light-rgb), 1);
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0.3rem;
@@ -6901,6 +6901,7 @@ fieldset:disabled .btn {
   display: none;
   float: left;
   width: 100%;
+  overflow: hidden;
   margin-right: -100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -12279,7 +12280,7 @@ p {
 
 .btn-xl {
   padding: 1.25rem 2.5rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Petit Formal Script', cursive;
   font-size: 1.125rem;
   font-weight: 700;
 }
@@ -12513,8 +12514,8 @@ header.masthead .masthead-heading {
   position: absolute;
   top: 1.5rem;
   right: 1.5rem;
-  width: 3rem;
-  height: 3rem;
+  width: 1.5rem;
+  height: 1.5rem;
   cursor: pointer;
   background-color: transparent;
 }
@@ -12846,4 +12847,8 @@ section#contact form#contactForm :-ms-input-placeholder {
   display: block;
   width: 65%;
   padding-bottom: 3rem;
+}
+
+.pad-btm{
+  padding-bottom: 2rem;
 }
