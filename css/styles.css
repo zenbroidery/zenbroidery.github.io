@@ -12849,6 +12849,12 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 @media (max-width: 768px) {
+  h2.section-heading{
+    font-size: 2rem !important;
+  }
+}
+
+@media (max-width: 768px) {
   header.masthead {
     height: 55vh;
   }
