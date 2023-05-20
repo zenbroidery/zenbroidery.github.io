@@ -12759,11 +12759,17 @@ header.masthead .masthead-heading {
 }
 
 section#contact {
-  background-color: rgba(var(--bs-light-rgb), 1) !important;
+  /* background-color: rgba(var(--bs-light-rgb), 1) !important; */
   background-repeat: no-repeat;
   background-position: center;
 }
 
+.testimonial {
+  margin-left: 20%; 
+  margin-right: 20%; 
+  text-align: center;
+  color:black;
+}
 section#contact .section-heading {
   color: var(--bs-body-color);
 }
@@ -12849,6 +12855,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 .content{
   font-size: 12pt;
+  color: black
 }
 
 .center-img {
